@@ -1,3 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #B99976;
+  margin: auto;
+
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: justify;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 125px;
+  margin-left: 125px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+#navbar a:hover {
+  background-color: #f2a65a;
+  color: white;
+  text-align: center;
+  margin-right: 125px;
+  margin-left: 125px;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
 body {
   height: auto; /* Used to enable scrolling */
 background: linear-gradient(rgba(230,204,178,1) 0%, rgba(221,184,146,1) 30%, rgba(127,85,57,1) 65%, rgba(156,102,68,1) 100%);
@@ -63,6 +108,16 @@ p1{
   margin-right: 50px;
   font-size: 13px;
   font-family: 'Source Code Pro', monospace;
+}
+#top{
+  color: white;
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 13px;
+  font-family: 'Source Code Pro', monospace;
+  margin-left: auto;
+  margin-right: auto;
 }
 ul, li {
   color: white;
@@ -327,7 +382,32 @@ ul, li {
   margin-left: auto;
   margin-right: auto;
 }
+p5{
+  font-size: 48px
+}
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+.scrollToTopBtn {
+  background-color: #ecc8af;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 48px;
+  line-height: 64px;
+  width: 64px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.5s ease;
+}
 
-a{
-  color: #aec6cf
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
 }
