@@ -46,7 +46,10 @@ html {
 body {
   height: auto; /* Used to enable scrolling */
 background:linear-gradient(rgba(246,191,137,1) 0%, rgba(254,201,143,1) 30%, rgba(255,180,128,1) 65%, rgba(255,160,113,1) 100%);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 05462f6e31c10537c0a7334998ad88e8e8abde46
 }
 
 .row {
